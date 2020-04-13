@@ -37,20 +37,17 @@ def DR_Plot(label, embedded_data, fileName):
 
 
 
-def DR_Plot_black(label, embedded_data, fileName):
-	uniqueLabel = np.unique(label)
+def DR_Plot_black(embedded_data, fileName):
 
 	f = plt.figure(figsize=(15, 15))
 	plt.axis('off')
+	plotDataX = []
+	plotDataY = []
 
-	for i in range(len(uniqueLabel)):
-		plotDataX = []
-		plotDataY = []
-		for j in range(len(label)):
-			if uniqueLabel[i] == label[j]:
-				plotDataX.append(embedded_data[j,0])
-				plotDataY.append(embedded_data[j,1])
+	for i in range(len(embedded_data)):
+		plotDataX.append(embedded_data[i][0])
+		plotDataY.append(embedded_data[i][1])
 
-		plt.scatter(plotDataX, plotDataY, c = 'k')
+	plt.scatter(plotDataX, plotDataY, c = 'k')
 
 	plt.savefig(fileName)
