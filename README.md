@@ -21,6 +21,6 @@ To import the MNIST csv file and output with the data matrix and sample labels.
 
 ## Result
 ### t-SNE with sample labels
-![Image description](link-to-image)
+![Image description](https://github.com/NTUEEboy/DBSCAN-and-t-SNE/blob/master/figure/tsne.png)
 ### t-SNE clustered by DBSCAN
-![Image description](link-to-image)
+![Image description](https://github.com/NTUEEboy/DBSCAN-and-t-SNE/blob/master/figure/clustering_tsne.png)
