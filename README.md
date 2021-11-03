@@ -1,11 +1,11 @@
 # DBSCAN-and-t-SNE
+In here, I used the MNIST data to demostrate tSNE and DBSCAN algorithms
 
-## Functions description
-### main.py
+### `main.py`
 The main function imports the MNIST csv file and reduces the high dimensionality to 2-D.
 Then plots the t-SNE figure with labels and the t-SNE figure with DBSCAN clustering.
 
-### DR_plot.py
+### `DR_plot.py`
 The file includes two functions, DR_Plot and DR_Plot_black. 
 
 #### DR_plot:
@@ -16,7 +16,7 @@ The output would be the scatter figure with color label depending on samples.
 Input sample n x 2 embedded array, and the "filename" you want to save.
 The output would be the scatter figure.
 
-### readMNIST.py
+### `readMNIST.py`
 To import the MNIST csv file and output with the data matrix and sample labels.
 
 ## Result
