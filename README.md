@@ -1,5 +1,5 @@
 # DBSCAN-and-t-SNE
-In here, I used the MNIST data to demostrate tSNE and DBSCAN algorithms
+In here, I used the MNIST data to demostrate tSNE and DBSCAN algorithms.
 
 ### `main.py`
 The main function imports the MNIST csv file and reduces the high dimensionality to 2-D.
